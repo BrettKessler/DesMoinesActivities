@@ -1,0 +1,36 @@
+ChatGPT Response Parser Improvement Test
+Test started at: 2025-06-23T21:16:20.902Z
+
+Testing original parser...
+Original parser found 2 categories
+- Live Music: 40 events
+- Festivals & Events: 40 events
+Original parser found 0 planning tips
+
+Testing improved parser...
+Improved parser found 2 categories
+- Live Music: 3 events
+  ⚠️ Found 3 missing required fields in this category
+  Example event: Event 1
+    Date: TBD
+    Time: 8:00 PM
+    Venue: Hoyt Sherman Place
+    Price: Starting at $45
+    Link: [hoytsherman.org](https://hoytsherman.org)
+    Description: New Orleans-based rock band known for their energetic live performances and soulful sound.
+- Festivals & Events: 3 events
+  ✅ All required fields present
+  Example event: Event 1
+    Date: June 27
+    Time: Friday & Saturday 10 AM-10 PM, Sunday 10 AM-5 PM
+    Venue: Western Gateway Park
+    Price: Free
+    Link: 
+    Description: Annual arts festival featuring over 180 artists, live music, food vendors, and interactive activities.
+Improved parser found 3 planning tips
+
+Comparison:
+Original parser: 80 total events
+Improved parser: 6 total events
+
+✅ Parser improvement test completed successfully!

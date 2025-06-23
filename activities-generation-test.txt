@@ -1,0 +1,24 @@
+Des Moines Activities Generation Test
+Test started at: 2025-06-23T21:13:25.152Z
+
+API Key exists: true
+API Key length: 164
+
+Current week: June 23, 2025 to June 29, 2025
+
+Generated Prompt:
+----------------
+Generate a weekly, informational events newsletter for Des Moines and within 50 miles for the week of June 23, 2025–June 29, 2025.
+
+Include:
+
+• Every notable live-music show with date, time, venue, starting ticket price, ticket link, and 1-sentence artist bio.
+
+• Major festivals, family or outdoor events with dates, hours, location, and admission info.
+
+• Brief planning tips (parking, weather, family-friendly notes).
+
+Format it in sections with tables or lists so it's ready to email.
+----------------
+
+Calling ChatGPT API (this may take a moment)...

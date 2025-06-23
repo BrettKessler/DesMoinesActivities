@@ -1,0 +1,47 @@
+Improved ChatGPT Integration Test
+Test started at: 2025-06-23T21:21:57.981Z
+
+Starting improved integration test...
+
+Generated Prompt:
+----------------
+Generate a weekly, informational events newsletter for Des Moines and within 50 miles for the week of June 23, 2025–June 29, 2025.
+
+Include:
+
+• Notable live-music shows
+• Major festivals, family or outdoor events
+• Brief planning tips (parking, weather, family-friendly notes)
+
+IMPORTANT: You MUST format your response EXACTLY as follows to ensure proper parsing:
+
+### LIVE MUSIC
+
+**[Event Name]**
+* Date: [specific date in format: Day of week, Month Day]
+* Time: [specific time]
+* Venue: [specific venue name]
+* Tickets: [price information]
+* Ticket Link: [ticket link]
+* Description: [brief artist bio or event description]
+
+### FESTIVALS & EVENTS
+
+**[Event Name]**
+* Date: [specific date in format: Day of week, Month Day]
+* Time: [specific time or hours]
+* Venue: [specific venue or location]
+* Admission: [price information]
+* Website: [event website if available]
+* Description: [brief event description]
+
+### PLANNING TIPS
+
+* **[Topic]**: [tip details]
+* **[Topic]**: [tip details]
+* **[Topic]**: [tip details]
+
+Do not deviate from this format. Each event must include ALL the fields listed above, even if you need to indicate "Free" for tickets or "TBD" for unknown information. Do not add any additional sections or change the formatting.
+----------------
+
+Calling ChatGPT API...

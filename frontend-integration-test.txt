@@ -1,0 +1,55 @@
+Frontend Integration Test (Mock Database)
+Test started at: 2025-06-23T21:47:25.078Z
+
+Setting up mock database
+Created mock activities data
+Data has 7 events in 2 categories
+Test server running on port 3001
+Open http://localhost:3001 in your browser to test the front end
+Test server started successfully
+Press Ctrl+C to stop the server
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/date-range
+API request received: GET /api/activities
+Shutting down test server...
+Test server stopped
+Test completed
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/activities
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/date-range
+API request received: GET /api/activities
+API request received: GET /api/activities

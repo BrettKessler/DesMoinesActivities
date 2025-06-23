@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100" height="100">
+  <circle cx="250" cy="250" r="240" fill="white" stroke="#0e3450" stroke-width="10"/>
+  
+  <!-- Skyline -->
+  <g fill="#0e3450">
+    <!-- Capitol Building -->
+    <path d="M150,150 L150,200 L170,200 L170,180 L190,180 L190,200 L210,200 L210,150 C210,150 180,130 150,150 Z"/>
+    
+    <!-- Clock Tower -->
+    <rect x="230" y="140" width="20" height="60"/>
+    <polygon points="240,120 250,130 230,130"/>
+    
+    <!-- Skyscraper -->
+    <rect x="270" y="140" width="40" height="60"/>
+    <polygon points="290,120 310,130 270,130"/>
+    
+    <!-- Horizontal Line -->
+    <rect x="120" y="200" width="260" height="10"/>
+  </g>
+  
+  <!-- DES MOINES -->
+  <text x="250" y="250" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#0e3450">DES MOINES</text>
+  
+  <!-- ACTIVITIES -->
+  <text x="250" y="300" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#0e3450">ACTIVITIES</text>
+  
+  <!-- Activity Icons -->
+  <g fill="none" stroke="#0e3450" stroke-width="6">
+    <!-- Bicycle -->
+    <circle cx="140" cy="350" r="15"/>
+    <circle cx="190" cy="350" r="15"/>
+    <path d="M140,350 L165,330 L190,350 M165,330 L165,360"/>
+    
+    <!-- Ferris Wheel -->
+    <circle cx="250" cy="350" r="25"/>
+    <path d="M250,325 L250,375 M225,350 L275,350 M235,335 L265,365 M235,365 L265,335"/>
+    
+    <!-- Guitar -->
+    <path d="M310,325 L310,375 C320,375 330,365 330,350 C330,335 320,325 310,325 Z"/>
+    <line x1="310" y1="335" x2="330" y2="335"/>
+    <line x1="310" y1="350" x2="330" y2="350"/>
+    <line x1="310" y1="365" x2="330" y2="365"/>
+    
+    <!-- Tree -->
+    <polygon points="370,325 350,360 390,360"/>
+    <rect x="365" y="360" width="10" height="15"/>
+  </g>
+</svg>

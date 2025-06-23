@@ -1,0 +1,109 @@
+{
+  "categories": [
+    {
+      "name": "Live Music",
+      "events": [
+        {
+          "name": "The Revivalists at Hoyt Sherman Place",
+          "date": "Monday, June 23",
+          "time": "8:00 PM",
+          "venue": "Hoyt Sherman Place",
+          "ticketPrice": "Starting at $45",
+          "ticketLink": "https://hoytsherman.org",
+          "description": "New Orleans-based rock band known for their energetic live performances and soulful sound."
+        },
+        {
+          "name": "Jazz Night at Noce",
+          "date": "Tuesday, June 24",
+          "time": "7:00 PM",
+          "venue": "Noce",
+          "ticketPrice": "$15",
+          "ticketLink": "https://nocedsm.com",
+          "description": "Weekly showcase featuring the best local jazz musicians in an intimate setting."
+        },
+        {
+          "name": "Taylor Swift Tribute at Wells Fargo Arena",
+          "date": "Friday, June 27",
+          "time": "7:30 PM",
+          "venue": "Wells Fargo Arena",
+          "ticketPrice": "Starting at $35",
+          "ticketLink": "https://iowaeventscenter.com",
+          "description": "Celebrate the music of Taylor Swift with this high-energy tribute show."
+        },
+        {
+          "name": "Des Moines Symphony: Summer Pops",
+          "date": "Saturday, June 28",
+          "time": "7:30 PM",
+          "venue": "Lauridsen Amphitheater at Water Works Park",
+          "ticketPrice": "$25-$45",
+          "ticketLink": "https://dmsymphony.org",
+          "description": "The Des Moines Symphony performs popular classics under the stars with a spectacular fireworks finale."
+        },
+        {
+          "name": "Sunday Jazz Brunch at The Republic",
+          "date": "Sunday, June 29",
+          "time": "11:00 AM - 2:00 PM",
+          "venue": "The Republic on Grand",
+          "ticketPrice": "Free (food and drinks available for purchase)",
+          "ticketLink": "https://therepublicongrand.com",
+          "description": "Enjoy smooth jazz with your brunch at this weekly event featuring rotating local jazz musicians."
+        }
+      ]
+    },
+    {
+      "name": "Festivals & Events",
+      "events": [
+        {
+          "name": "Des Moines Arts Festival",
+          "date": "Friday, June 27 - Sunday, June 29",
+          "time": "Friday & Saturday 10:00 AM - 10:00 PM, Sunday 10:00 AM - 5:00 PM",
+          "venue": "Western Gateway Park",
+          "ticketPrice": "Free",
+          "ticketLink": "https://desmoinesartsfestival.org",
+          "description": "Annual arts festival featuring over 180 artists, live music, food vendors, and interactive activities."
+        },
+        {
+          "name": "Downtown Farmers' Market",
+          "date": "Saturday, June 28",
+          "time": "7:00 AM - 12:00 PM",
+          "venue": "Downtown Court Avenue District",
+          "ticketPrice": "Free",
+          "ticketLink": "https://dsmpartnership.com/downtownfarmersmarket",
+          "description": "Shop fresh produce, baked goods, and handcrafted items from over 300 vendors."
+        },
+        {
+          "name": "Yoga in the Park",
+          "date": "Sunday, June 29",
+          "time": "9:00 AM - 10:00 AM",
+          "venue": "Gray's Lake Park",
+          "ticketPrice": "Free (donations welcome)",
+          "ticketLink": "https://dsmparks.org",
+          "description": "Bring your own mat for this all-levels outdoor yoga class."
+        },
+        {
+          "name": "Iowa Cubs vs. St. Paul Saints",
+          "date": "Tuesday, June 24 - Thursday, June 26",
+          "time": "6:38 PM (all games)",
+          "venue": "Principal Park",
+          "ticketPrice": "$10-$30",
+          "ticketLink": "https://iowacubs.com",
+          "description": "Catch the Iowa Cubs take on the St. Paul Saints in this three-game homestand."
+        },
+        {
+          "name": "Ankeny SummerFest",
+          "date": "Thursday, June 26 - Sunday, June 29",
+          "time": "Various times",
+          "venue": "Ankeny Uptown District",
+          "ticketPrice": "Free (some activities may have fees)",
+          "ticketLink": "https://ankenyiowa.gov/summerfest",
+          "description": "Annual community festival featuring a parade, carnival rides, live music, and food vendors."
+        }
+      ]
+    }
+  ],
+  "planningTips": [
+    "Parking: Downtown parking is free on weekends. For the Arts Festival, consider using the free shuttle service from downtown parking garages. Principal Park has paid parking lots nearby for $10.",
+    "Weather: Forecast shows temperatures in the mid-80s with a chance of afternoon thunderstorms on Saturday. Bring sunscreen and a light rain jacket for outdoor events.",
+    "Family-Friendly Notes: The Arts Festival has a dedicated kids' zone with activities throughout the day. The Farmers Market can get crowded with strollers, so consider baby carriers for small children. Ankeny SummerFest has a family day on Saturday with special activities for children."
+  ]
+}

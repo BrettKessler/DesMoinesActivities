@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Des Moines Activities</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Des Moines Activities Logo">
+            </div>
+        </div>
+
+        <header class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h4 class="pre-title">DISCOVER THE BEST OF</h4>
+                        <h1 class="main-title">Des Moines</h1>
+                        <p class="subtitle">Your weekly guide to events and activities in Des Moines, Iowa</p>
+                        <button class="btn btn-primary">Explore Now</button>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="images/Des_Moines_Starry_Circle.jpeg" alt="Des Moines skyline in Van Gogh's Starry Night style" class="hero-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <section id="subscription" class="card">
+                <div class="card-content">
+                    <h2>Weekly Newsletter</h2>
+                    <p>Get the latest activities delivered to your inbox every week!</p>
+                    <form id="subscribe-form">
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your email address" required>
+                            <button type="submit" class="btn">Subscribe</button>
+                        </div>
+                    </form>
+                    <div id="subscription-message"></div>
+                </div>
+            </section>
+
+            <section id="featured">
+                <h2 class="section-title">Featured Activities</h2>
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <div class="activity-image farmers-market"></div>
+                        <div class="activity-content">
+                            <h3>Downtown Farmers Market</h3>
+                            <div class="date-range">
+                                <span class="date-badge">June 25 - September 30, 2025</span>
+                            </div>
+                            <p class="activity-description">Local vendors selling fresh produce, crafts, and food.</p>
+                        </div>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-image arts-festival"></div>
+                        <div class="activity-content">
+                            <h3>Des Moines Arts Festival</h3>
+                            <div class="date-range">
+                                <span class="date-badge">July 2-4, 2025</span>
+                            </div>
+                            <p class="activity-description">Annual arts festival featuring over 180 artists.</p>
+                        </div>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-image baseball"></div>
+                        <div class="activity-content">
+                            <h3>Iowa Cubs Baseball Game</h3>
+                            <div class="date-range">
+                                <span class="date-badge">June 28 - August 15, 2025</span>
+                            </div>
+                            <p class="activity-description">Catch the Iowa Cubs take on the Omaha Storm Chasers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a href="#activities" class="btn btn-outline">View All Activities</a>
+                </div>
+            </section>
+
+            <section id="activities">
+                <h2 class="section-title">Upcoming Activities</h2>
+                <div class="section-date-range">
+                    <span id="current-week-range">Loading date range...</span>
+                    <div class="data-source-toggle">
+                        <label for="use-live-data" class="toggle-label">
+                            <input type="checkbox" id="use-live-data">
+                            <span class="toggle-text">Use Live Data</span>
+                        </label>
+                        <span id="data-source-indicator" class="data-source-indicator"></span>
+                    </div>
+                </div>
+                <div id="activities-list" class="activities-list">
+                    <!-- Activities will be populated here by JavaScript -->
+                    <p class="loading">Loading activities...</p>
+                </div>
+            </section>
+
+            <section id="weather-forecast">
+                <h2 class="section-title">Weather Forecast</h2>
+                <div id="weather-forecast-container" class="weather-forecast-container">
+                    <!-- Weather forecast will be populated here by JavaScript -->
+                    <p class="loading">Loading weather forecast...</p>
+                </div>
+            </section>
+
+            <section id="planning-tips">
+                <h2 class="section-title">Planning Tips</h2>
+                <div id="planning-tips-list" class="planning-tips-list">
+                    <!-- Planning tips will be populated here by JavaScript -->
+                    <p class="loading">Loading planning tips...</p>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="images/logo.svg" alt="Des Moines Activities Logo" class="footer-logo-img">
+                        <p>Your weekly guide to what's happening in Des Moines</p>
+                    </div>
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Explore</h4>
+                            <ul>
+                                <li><a href="#">Activities</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Locations</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Connect</h4>
+                            <ul>
+                                <li><a href="#">Subscribe</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Des Moines Activities Newsletter</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

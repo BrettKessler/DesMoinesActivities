@@ -1,0 +1,30 @@
+This is a test file.
+Current time: 2025-06-23T21:11:16.819Z
+Environment file exists.
+CHATGPT_API_KEY found in .env file.
+API key length: 164
+API key preview: sk-pr...3R8A
+
+Files in current directory:
+- .env
+- .env.example
+- .git
+- .gitignore
+- Procfile
+- README.md
+- check-env.js
+- client
+- deploy-heroku.sh
+- hello.js
+- images
+- index.html
+- package.json
+- script.js
+- server
+- setup.sh
+- simple-chatgpt-test.js
+- simple-file-test.js
+- styles.css
+- test-chatgpt-api.js
+- test-output.txt
+- test-with-file-output.js

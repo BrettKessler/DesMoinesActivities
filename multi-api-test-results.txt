@@ -1,0 +1,34 @@
+Multi-API Integration Test Results
+Started at: 2025-06-23T23:03:44.215Z
+
+Testing multi-API integration...
+Testing individual APIs...
+
+Ticketmaster API Test:
+✅ Ticketmaster API test successful
+Found 1 events
+Example event: Parade (Touring)
+
+OpenWeather API Test:
+⚠️ OpenWeather One Call API 3.0 requires a subscription
+Falling back to Current Weather Data API (free tier)...
+✅ OpenWeather Current Weather API test successful
+Current temperature in Des Moines: 80.91°F
+Weather: Rain - heavy intensity rain
+
+Gemini API Test:
+✅ Gemini API test successful
+Response: ```json
+[
+  "Pappajohn Sculpture Park",
+  "Iowa State Capitol Building",
+  "Science Center of Iowa"
+]
+```
+
+Fetching activities from multiple APIs...
+❌ Error in multi-API integration test: Operation `activities.findOneAndUpdate()` buffering timed out after 10000ms
+Stack trace: MongooseError: Operation `activities.findOneAndUpdate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/brettkessler/Desktop/des-moines-activities/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)

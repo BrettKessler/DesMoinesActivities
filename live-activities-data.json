@@ -1,0 +1,264 @@
+{
+  "weekStartDate": "2025-06-23T05:00:00.000Z",
+  "weekEndDate": "2025-06-30T04:59:59.999Z",
+  "categories": [
+    {
+      "name": "Live Music",
+      "events": [
+        {
+          "name": "Modest Mouse",
+          "date": "Monday, June 23",
+          "time": "7:30 PM",
+          "venue": "Val Air Ballroom",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A7fdPE",
+          "description": "Modest Mouse"
+        },
+        {
+          "name": "GOD CULT",
+          "date": "Friday, June 27",
+          "time": "5:00 PM",
+          "venue": "Lefty's Live Music",
+          "ticketPrice": "$20.03",
+          "ticketLink": "https://www.ticketweb.com/event/god-cult-leftys-live-music-tickets/13770774",
+          "description": "GOD CULT"
+        },
+        {
+          "name": "Treaty Oak Revival",
+          "date": "Friday, June 27",
+          "time": "6:30 PM",
+          "venue": "Water Works Park",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/treaty-oak-revival-des-moines-iowa-06-27-2025/event/060061892C514AB8",
+          "description": "Doors 5pm / Show 6:30pm GA Pit is Standing Room Only Delivery delayed until 24-JUN-2025 7:00pm."
+        },
+        {
+          "name": "Weird Al Yankovic w/ Puddles Pity Party",
+          "date": "Friday, June 27",
+          "time": "8:00 PM",
+          "venue": "Des Moines Performing Arts Center - Civic Center",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A78O14",
+          "description": "Weird Al Yankovic w/ Puddles Pity Party"
+        },
+        {
+          "name": "Frankie Valli & The Four Seasons: The Last Encores",
+          "date": "Sunday, June 29",
+          "time": "7:30 PM",
+          "venue": "Stephens Auditorium",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/frankie-valli-the-four-seasons-the-ames-iowa-06-29-2025/event/06006247E02A6C72",
+          "description": "Frankie Valli & The Four Seasons: The Last Encores"
+        }
+      ]
+    },
+    {
+      "name": "Festivals & Events",
+      "events": [
+        {
+          "name": "Iowa Cubs vs. Columbus Clippers",
+          "date": "Tuesday, June 24",
+          "time": "6:38 PM",
+          "venue": "Principal Park",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A7oyqF",
+          "description": "Iowa Cubs vs. Columbus Clippers"
+        },
+        {
+          "name": "The Soapgirls (21+ Event)",
+          "date": "Tuesday, June 24",
+          "time": "7:00 PM",
+          "venue": "Lefty's Live Music",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A74sj0",
+          "description": "The Soapgirls (21+ Event)"
+        },
+        {
+          "name": "Iowa Cubs vs. Columbus Clippers",
+          "date": "Wednesday, June 25",
+          "time": "12:08 PM",
+          "venue": "Principal Park",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A7oyqa",
+          "description": "Iowa Cubs vs. Columbus Clippers"
+        },
+        {
+          "name": "Iowa Cubs vs. Columbus Clippers",
+          "date": "Thursday, June 26",
+          "time": "6:38 PM",
+          "venue": "Principal Park",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A7oyq8",
+          "description": "Iowa Cubs vs. Columbus Clippers"
+        },
+        {
+          "name": "Jimmy Shin",
+          "date": "Thursday, June 26",
+          "time": "7:00 PM",
+          "venue": "Funny Bone - Des Moines",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A7p_jM",
+          "description": "Jimmy Shin"
+        },
+        {
+          "name": "Warren B Hall",
+          "date": "Friday, June 27",
+          "time": "7:00 PM",
+          "venue": "Funny Bone - Des Moines",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A7p_jz",
+          "description": "Warren B Hall"
+        },
+        {
+          "name": "Iowa Cubs vs. Columbus Clippers",
+          "date": "Friday, June 27",
+          "time": "7:08 PM",
+          "venue": "Principal Park",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A7oyqo",
+          "description": "Iowa Cubs vs. Columbus Clippers"
+        },
+        {
+          "name": "Call Me Hot Not Pretty - Chappell Roan Tribute",
+          "date": "Friday, June 27",
+          "time": "8:00 PM",
+          "venue": "xBk Live",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A7bv8g",
+          "description": "Call Me Hot Not Pretty - Chappell Roan Tribute"
+        },
+        {
+          "name": "Iowa Cubs vs. Columbus Clippers",
+          "date": "Saturday, June 28",
+          "time": "6:08 PM",
+          "venue": "Principal Park",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A7oyq3",
+          "description": "Iowa Cubs vs. Columbus Clippers"
+        },
+        {
+          "name": "Warren B Hall",
+          "date": "Saturday, June 28",
+          "time": "6:30 PM",
+          "venue": "Funny Bone - Des Moines",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A7p_jy",
+          "description": "Warren B Hall"
+        },
+        {
+          "name": "Killers of Kill Tony",
+          "date": "Saturday, June 28",
+          "time": "7:00 PM",
+          "venue": "Des Moines Performing Arts Center - Civic Center",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A74kQ3",
+          "description": "Killers of Kill Tony"
+        },
+        {
+          "name": "Traffic Death",
+          "date": "Saturday, June 28",
+          "time": "7:00 PM",
+          "venue": "xBk Live",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A7bv8U",
+          "description": "Traffic Death"
+        },
+        {
+          "name": "Iowa Barnstormers vs. Jacksonville Sharks",
+          "date": "Saturday, June 28",
+          "time": "7:05 PM",
+          "venue": "Wells Fargo Arena - Des Moines",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A74vj6",
+          "description": "Iowa Barnstormers vs. Jacksonville Sharks"
+        },
+        {
+          "name": "Iowa Cubs vs. Columbus Clippers",
+          "date": "Sunday, June 29",
+          "time": "1:08 PM",
+          "venue": "Principal Park",
+          "ticketPrice": "Price TBD",
+          "ticketLink": "https://www.ticketmaster.com/event/Z7r9jZ1A7oyqK",
+          "description": "Iowa Cubs vs. Columbus Clippers"
+        }
+      ]
+    }
+  ],
+  "planningTips": [
+    "**Weekly Weather**: Expect temperatures ranging from 77°F to 84°F this week. Rain conditions expected for most of the week.",
+    "**Parking**: Downtown parking is free on weekends. For the Arts Festival, consider using the free shuttle service from downtown parking garages. Principal Park has paid parking lots nearby for $10.",
+    "**Family-Friendly Notes**: The Arts Festival has a dedicated kids' zone with activities throughout the day. The Farmers Market can get crowded with strollers, so consider baby carriers for small children. Ankeny SummerFest has a family day on Saturday with special activities for children."
+  ],
+  "weatherForecast": [
+    {
+      "date": "Monday, June 23",
+      "temp": {
+        "min": 77,
+        "max": 84
+      },
+      "weather": "Rain",
+      "description": "Heavy rain with thunderstorms",
+      "precipitation": 80
+    },
+    {
+      "date": "Tuesday, June 24",
+      "temp": {
+        "min": 75,
+        "max": 82
+      },
+      "weather": "Clouds",
+      "description": "Partly cloudy with scattered showers",
+      "precipitation": 40
+    },
+    {
+      "date": "Wednesday, June 25",
+      "temp": {
+        "min": 73,
+        "max": 80
+      },
+      "weather": "Rain",
+      "description": "Light rain throughout the day",
+      "precipitation": 60
+    },
+    {
+      "date": "Thursday, June 26",
+      "temp": {
+        "min": 76,
+        "max": 83
+      },
+      "weather": "Clouds",
+      "description": "Mostly cloudy with a chance of rain",
+      "precipitation": 30
+    },
+    {
+      "date": "Friday, June 27",
+      "temp": {
+        "min": 78,
+        "max": 85
+      },
+      "weather": "Clear",
+      "description": "Sunny with clear skies",
+      "precipitation": 5
+    },
+    {
+      "date": "Saturday, June 28",
+      "temp": {
+        "min": 80,
+        "max": 88
+      },
+      "weather": "Thunderstorm",
+      "description": "Afternoon thunderstorms possible",
+      "precipitation": 65
+    },
+    {
+      "date": "Sunday, June 29",
+      "temp": {
+        "min": 77,
+        "max": 84
+      },
+      "weather": "Clear",
+      "description": "Mostly sunny with a few clouds",
+      "precipitation": 10
+    }
+  ]
+}

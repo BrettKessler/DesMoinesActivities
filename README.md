@@ -1,10 +1,12 @@
 # Des Moines Activities Newsletter
 
-A weekly newsletter application that displays activities and events in Des Moines, Iowa. The application uses ChatGPT to generate a list of activities for the current week and displays them on a website.
+A weekly newsletter application that displays activities and events in Des Moines, Iowa. The application uses multiple APIs (Ticketmaster, OpenWeather, and Google Gemini AI) to gather real-time data about events, weather, and local activities in Des Moines.
 
 ## Features
 
-- Weekly updates of Des Moines activities using ChatGPT
+- Real-time events data from Ticketmaster API
+- Weather forecast integration with OpenWeather API
+- Enhanced local activities suggestions using Google Gemini AI
 - MongoDB database for storing activities
 - Node.js/Express backend API
 - Responsive frontend design
@@ -27,12 +29,18 @@ des-moines-activities/
 │   ├── routes/              # API endpoints
 │   │   └── activities.js
 │   ├── services/            # Business logic
-│   │   └── chatgpt.js       # ChatGPT integration
+│   │   ├── chatgpt.js       # ChatGPT integration
+│   │   ├── improved-chatgpt.js # Improved ChatGPT integration
+│   │   └── multi-api.js     # Multi-API integration
 │   └── jobs/                # Scheduled jobs
-│       └── weeklyUpdate.js  # Weekly ChatGPT fetch
+│       └── weeklyUpdate.js  # Weekly data update job
+├── scripts/                 # Utility scripts
+│   ├── generate-multi-api-activities.js # Generate activities without DB update
+│   └── test-multi-api.js    # Test multi-API integration
 ├── package.json             # Dependencies and scripts
 ├── .env                     # Environment variables (not committed)
 ├── .env.example             # Example environment variables
+├── multi-api-integration-summary.md # Documentation of multi-API integration
 └── Procfile                 # Heroku deployment configuration
 ```
 
@@ -40,7 +48,11 @@ des-moines-activities/
 
 - Node.js (v18 or higher)
 - MongoDB Atlas account
-- ChatGPT API key
+- API keys for:
+  - ChatGPT API
+  - Ticketmaster API
+  - OpenWeather API
+  - Google Gemini AI
 - Heroku account (for deployment)
 
 ## Local Development Setup
@@ -61,7 +73,7 @@ des-moines-activities/
    cp .env.example .env
    ```
 
-4. Update the `.env` file with your MongoDB connection string and ChatGPT API key.
+4. Update the `.env` file with your MongoDB connection string and all required API keys (ChatGPT, Ticketmaster, OpenWeather, and Google Gemini AI).
 
 5. Start the development server:
    ```
@@ -90,9 +102,12 @@ npm run update-activities
    heroku config:set MONGODB_URI=your_mongodb_connection_string
    ```
 
-3. Set the ChatGPT API key:
+3. Set all required API keys:
    ```
    heroku config:set CHATGPT_API_KEY=your_chatgpt_api_key
+   heroku config:set TICKETMASTER_API_KEY=your_ticketmaster_api_key
+   heroku config:set OPENWEATHER_API_KEY=your_openweather_api_key
+   heroku config:set GEMINI_API_KEY=your_gemini_api_key
    ```
 
 4. Deploy to Heroku:
